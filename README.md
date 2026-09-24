@@ -1,16 +1,41 @@
 # MoneyBack
 
-MoneyBack is a production iOS application designed to help users track purchases, receipts, and return deadlines.
+MoneyBack is a production iOS application that helps users track purchases, save receipts, monitor return deadlines, and identify opportunities to recover money.
 
-The app was built with React Native, Expo and TypeScript and has been released through Apple's App Store.
+Built with React Native, Expo, and TypeScript, MoneyBack progressed from initial development through TestFlight, App Store review, production release, subscription integration, and post-launch updates.
 
-> Production source code is maintained in a private repository.
+> The production source code is maintained in a private repository.
 
-## Overview
+## App Preview
 
-MoneyBack helps users keep track of purchases and avoid missing return windows by organizing receipt information and surfacing important deadlines.
+<table>
+  <tr>
+    <td align="center"><strong>Home</strong></td>
+    <td align="center"><strong>Vault</strong></td>
+    <td align="center"><strong>Activity</strong></td>
+  </tr>
+  <tr>
+    <td><img src="assets/Home.PNG" width="260"/></td>
+    <td><img src="assets/Vault.PNG" width="260"/></td>
+    <td><img src="assets/Activity.PNG" width="260"/></td>
+  </tr>
+</table>
 
-The project was developed from prototype through production release, including backend integration, subscription handling, build configuration, testing, App Store preparation and post-release updates.
+## What MoneyBack Does
+
+MoneyBack gives users one place to manage purchases and return-related activity.
+
+Key workflows include:
+
+- Saving and organizing purchase receipts
+- Tracking merchant, purchase, and item information
+- Monitoring return deadlines
+- Running purchase recovery checks
+- Surfacing actions that may require attention
+- Recording resolved returns and recovery activity
+- Searching and filtering saved purchases
+- Syncing user data through a cloud-backed account
+- Managing reminder preferences
 
 ## Tech Stack
 
@@ -25,38 +50,74 @@ The project was developed from prototype through production release, including b
 
 ## Engineering Highlights
 
-- Built mobile interfaces and application workflows using React Native and TypeScript.
-- Integrated cloud-backed application services and persistent user data.
-- Implemented subscription purchasing and restore-purchase flows with RevenueCat.
-- Configured production iOS builds and release workflows using Expo Application Services.
-- Tested real production subscription purchases after App Store release.
-- Diagnosed and resolved application review, packaging and release issues during the iOS deployment process.
-- Iterated on production UI and application behaviour after launch.
+- Built production mobile interfaces and workflows using React Native and TypeScript.
+- Integrated cloud-backed storage and persistent user data.
+- Developed purchase, receipt, recovery, and activity workflows.
+- Implemented subscription purchasing and restore-purchase functionality using RevenueCat.
+- Added reminder and deadline-management functionality.
+- Built loading, empty, error, and authenticated application states.
+- Configured production iOS builds using Expo Application Services.
+- Worked through TestFlight and App Store review requirements.
+- Diagnosed and fixed production packaging, account-flow, and release issues.
+- Verified live subscription purchases after App Store release.
+- Continued iterating on UI and application behavior after launch.
 
 ## Production Release
 
-MoneyBack progressed through:
+MoneyBack was taken through the complete iOS release lifecycle:
 
-1. Local development and testing
+1. Application development
 2. Cloud backend integration
-3. Standalone iOS builds
-4. TestFlight testing
-5. App Store review
-6. Production release
-7. Live subscription verification
-8. Post-release updates
+3. Production environment configuration
+4. Standalone iOS builds
+5. TestFlight testing
+6. App Store review
+7. Production release
+8. Live subscription verification
+9. Post-release updates
 
-## Screenshots
+This project provided experience beyond building a prototype, including real deployment, production debugging, subscription handling, release requirements, and maintaining software after launch.
 
-Screenshots and additional product details coming soon.
+## Architecture
+
+### Mobile Client
+
+- React Native
+- Expo
+- TypeScript
+
+### Services
+
+- Cloud-backed application API
+- Persistent user data
+- RevenueCat subscription management
+
+### Release & Delivery
+
+- Expo Application Services
+- TestFlight
+- App Store Connect
+- Production iOS distribution
 
 ## What I Learned
 
-This project gave me hands-on experience taking a mobile application beyond development and into production.
+MoneyBack gave me hands-on experience taking a mobile application from development into production.
 
-I worked through real release concerns including build configuration, environment separation, subscription handling, App Store review requirements, production testing, debugging and iterative updates after launch.
+The project required working through real engineering and release concerns including:
+
+- Environment separation
+- API integration
+- Authentication and account flows
+- Subscription handling
+- Production builds
+- App Store review
+- Release debugging
+- Live purchase verification
+- Post-release maintenance
 
 ## Developer
 
 **Risto Caissie**  
 Software Developer — Calgary, Alberta
+
+📧 ristocaissie1@gmail.com
